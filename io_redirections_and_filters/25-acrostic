@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 Acrostic
+echo $(cut -d ' ' -f1 | cut -c -1 | tr -d[:space:])
